@@ -11,8 +11,7 @@ void main() {
         ),
         body: Center(
           child: Image(
-            image: NetworkImage(
-                'https://i.insider.com/648090713973bf001961daa1?width=1136&format=jpeg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
